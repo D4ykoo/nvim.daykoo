@@ -21,7 +21,10 @@
 * [cmd luasnip](https://github.com/saadparwaiz1/cmp_luasnip) completion source
 
 ### remaps
-remaps can be found [here](/lua/daykoo/remap.lua)
+vim remaps can be found [here](/lua/daykoo/remap.lua)  
+plugin remaps can be found in the corresponding plugin.lua file
+
+![shortcuts](resources/shortcuts.png)
 
 ### TODO:
 - [ ] colorscheme
