@@ -1,5 +1,5 @@
 # nvim.daykoo
-### Prerequsite:
+### Prerequisite:
 `ripgrep`
 
 ### stack
