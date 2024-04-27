@@ -1,7 +1,5 @@
--- TODO: add catpuccing theme
-
 function ColorMyPencils(color)
-    color = color or "rose-pine" 
+    color = color or "catppuccin"
     vim.cmd.colorscheme(color)
 
     vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
@@ -11,14 +9,23 @@ end
 
 return {
     {
-        "rose-pine/neovim",
-        name = "rose-pine",
-        config = function() 
-            require('rose-pine').setup({
-                disable_background=true,
-                })
+        "catppuccin/nvim",
+        name = "catppuccin",
+        priority = 1000,
 
-                vim.cmd("colorscheme rose-pine")
+        config = function()
+            require('catppuccin').setup({
+                flavour = "mocha",
+                transparent_background = true,
+                default_integrations = true,
+                integrations = {
+                    cmp = true,
+                    gitsigns = true,
+                    treesitter = true,
+                }
+            })
+
+                vim.cmd("colorscheme catppuccin")
 
                 ColorMyPencils()
         end
