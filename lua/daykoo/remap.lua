@@ -102,3 +102,7 @@ end)
 -- )
 
 
+-- auto closing paranthesis and brackets
+-- vim.keymap.set("i", "(", "()<Left>")
+-- vim.keymap.set("i", "{", "{}<Left>")
+-- vim.keymap.set("i", "[", "[]<Left>")

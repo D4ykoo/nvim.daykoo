@@ -9,8 +9,13 @@ vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 
 vim.opt.smartindent = true
+vim.opt.scrolloff = 4
+vim.opt.pumblend = 10
+vim.opt.pumheight = 10
 
--- vim.opt.wrap = false
+vim.opt.shiftround = true
+vim.opt.wrap = false
+-- vim.opt.sidescrolloff = 8
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -31,3 +36,7 @@ vim.opt.updatetime = 50
 -- vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+
+if vim.fn.has("nvim-0.10") == 1 then
+    vim.opt.smoothscroll = true
+end
