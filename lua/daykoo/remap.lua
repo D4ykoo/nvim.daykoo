@@ -15,8 +15,8 @@ vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
 -- which is like the default word jumping in like every editor
 vim.keymap.set({'n', 'i'}, '<C-Left>', '<cmd>echo "Use b to move!!"<CR>')
 vim.keymap.set({'n', 'i'}, '<C-Right>', '<cmd>echo "Use e or w to move!!"<CR>')
-vim.keymap.set('n', '<C-Up>', '<cmd>echo "Use k to move!!"<CR>')
-vim.keymap.set('n', '<C-Down>', '<cmd>echo "Use j to move!!"<CR>')
+vim.keymap.set({'n', 'i'}, '<C-Up>', '<cmd>echo "Use k to move!!"<CR>')
+vim.keymap.set({'n', 'i'}, '<C-Down>', '<cmd>echo "Use j to move!!"<CR>')
 
 
 -- GREAT thanks @ThePrimeagen
@@ -79,10 +79,6 @@ vim.keymap.set("v", "<leader>d", "\"_d")
 -- no multiple commands in ex mode
 vim.keymap.set("n", "Q", "<nop>")
 
--- to change directories fast opening a new tmux session 
--- well not sure if i like it since i got a tiling window manager 
-vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
-
 -- brings up menu that makes it possible to replace the highlighted work in every occurance
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
@@ -92,15 +88,13 @@ vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
 end)
 
--- TODO: quickfix remaps
 
--- TODO: here comes some programming language specific stuff e. g.
+-- here comes some programming language specific stuff e. g.
 -- vim.keymap.set(
 --     "n",
 --     "<leader>ee",
---     "oif err != nil {<CR>}<Esc>Oreturn err<Esc>"
+--     "if err != nil {<CR>}<Esc>Oreturn err<Esc>"
 -- )
-
 
 -- auto closing paranthesis and brackets
 -- vim.keymap.set("i", "(", "()<Left>")

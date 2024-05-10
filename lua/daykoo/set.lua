@@ -14,7 +14,9 @@ vim.opt.pumblend = 10
 vim.opt.pumheight = 10
 
 vim.opt.shiftround = true
-vim.opt.wrap = false
+
+-- usefull for e. g. LaTex
+vim.opt.wrap = true
 -- vim.opt.sidescrolloff = 8
 
 vim.opt.swapfile = false

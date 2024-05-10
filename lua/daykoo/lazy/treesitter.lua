@@ -9,7 +9,7 @@ return {
             },
 
             sync_install = false,
-            
+
             -- automatically install missing parsers when entering buffer
             -- only works with tree sitter cli
             auto_install = true,
