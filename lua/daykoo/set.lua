@@ -42,3 +42,17 @@ vim.g.mapleader = " "
 if vim.fn.has("nvim-0.10") == 1 then
     vim.opt.smoothscroll = true
 end
+
+-- Create an autocmd group for Tex file settings
+vim.api.nvim_create_augroup('TexLineWrap', { clear = true })
+
+-- Set line wrapping and visual line navigation for .tex files
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = 'tex',
+  callback = function()
+    vim.opt_local.wrap = true
+    vim.api.nvim_buf_set_keymap(0, 'n', 'j', 'gj', { noremap = true, silent = true })
+    vim.api.nvim_buf_set_keymap(0, 'n', 'k', 'gk', { noremap = true, silent = true })
+  end,
+  group = 'TexLineWrap'
+})
