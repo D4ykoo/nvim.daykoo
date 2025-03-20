@@ -2,7 +2,7 @@
 -- This config is based mainly on this one
 
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex) -- netrw
+vim.keymap.set("n", "<leader>pv", ':Oil<CR>') -- netrw
 
 -- great tip from @TJ in kickstart.nvim
 -- disables the arrow keys

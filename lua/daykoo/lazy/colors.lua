@@ -13,6 +13,7 @@ return {
                     cmp = true,
                     gitsigns = true,
                     treesitter = true,
+                    mason = true,
                 }
             })
                 vim.cmd("colorscheme catppuccin")

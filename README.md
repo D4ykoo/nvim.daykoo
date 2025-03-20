@@ -1,6 +1,7 @@
 # nvim.daykoo
 ### Prerequisite:
-`ripgrep`
+* `ripgrep`
+* `tree-sitter`
 
 ### stack
 * [lazy.nvim](https://github.com/folke/lazy.nvim) as plugin manager
@@ -14,6 +15,8 @@
 * [comment](https://github.com/numToStr/Comment.nvim) incredible and easy comment plugin that support motions
 * [autotag](https://github.com/windwp/nvim-ts-autotag) auto closing tags for web dev 
 * [ibl](https://github.com/lukas-reineke/indent-blankline.nvim) indent blank line visual
+* [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) as dashboard display
+* [oil](https://github.com/stevearc/oil.nvim) as file manager, replacement for netrw
 
 **lsp:**  
 * [mason](https://github.com/williamboman/mason.nvim) lsp mangager
