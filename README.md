@@ -1,42 +1,44 @@
-# nvim.daykoo
-### Prerequisite:
-* `ripgrep`
-* `tree-sitter`
+# daykoo.nvim
+This configuration is my (currently) perfect setup for Neovim![^disclaimer]\
+Required version since tree-sitter plugin is not maintained anymore: `0.12`.\
 
-### stack
-* [lazy.nvim](https://github.com/folke/lazy.nvim) as plugin manager
+## Features & Plugins
+**Navigation**\
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) fuzzy finder
+- [harpoon2](https://github.com/ThePrimeagen/harpoon/tree/harpoon2) quick and easy navigation between files
+- [oil.nvim](https://github.com/stevearc/oil.nvim) file explorer as neovim buffer
+- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) file explorer sidebar
+**LSP & Autocompletion:**\
+- [blink.cmp](https://github.com/Saghen/blink.cmp) completion and snippets
+- [conform.nvim](https://github.com/stevearc/conform.nvim) formatting
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) LSP configuration collection
+    - [mason.nvim](https://github.com/mason-org/mason.nvim) LSP package manager
+    - [mason-lspconfig.nvim](https://github.com/mason-org/mason-lspconfig.nvim) mason extension to combine mason and lspconfig
+**UI & UX:**\
+- [nvim.mini](https://github.com/nvim-mini/mini.nvim) a collection of small independent plugins
+    - (mini.icons)[https://github.com/nvim-mini/mini.icons] icon provider
+    - (mini.statusline)[https://github.com/nvim-mini/mini.statusline] minimal and fast statusline
+- [tokyonight.nvim](https://github.com/folke/tokyonight.nvim) the theme
+- [fidget.nvim](https://github.com/j-hui/fidget.nvim) provides the LSP progress UI
 
-#### Plugins
-* [fugitive](https://github.com/tpope/vim-fugitive) git plugin
-* [harpoon](https://github.com/ThePrimeagen/harpoon) great file changing
-* [telescope](https://github.com/nvim-telescope/telescope.nvim) fuzzy finder
-* [treesitter](https://github.com/nvim-treesitter/nvim-treesitter) parser and highlighting
-* [undotree](https://github.com/mbbill/undotree) to revert changes easily
-* [comment](https://github.com/numToStr/Comment.nvim) incredible and easy comment plugin that support motions
-* [autotag](https://github.com/windwp/nvim-ts-autotag) auto closing tags for web dev 
-* [ibl](https://github.com/lukas-reineke/indent-blankline.nvim) indent blank line visual
-* [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) as dashboard display
-* [oil](https://github.com/stevearc/oil.nvim) as file manager, replacement for netrw
+**Quality of Live**:\
+- [nvim.mini](https://github.com/nvim-mini/mini.nvim) a collection of small independent plugins
+    - (mini.ai)[https://github.com/nvim-mini/mini.ai] extend and create `a/i` textobjects
+    - (mini.surround)[https://github.com/nvim-mini/mini.surround] surround actions
+- [which-key.nvim](https://github.com/folke/which-key.nvim) shows keybindings in a popup while typing
 
-**lsp:**  
-* [mason](https://github.com/williamboman/mason.nvim) lsp mangager
-* [mason-lspconfig](https://github.com/williamboman/mason-lspconfig.nvim) for nvim-lspconfig 
-* [cmp](https://github.com/hrsh7th/nvim-cmp) completion 
-* [luasnip](https://github.com/L3MON4D3/LuaSnip) snippet engine 
-* [cmp luasnip](https://github.com/saadparwaiz1/cmp_luasnip) completion source
+## Required Packages
+`ripgrep`\
+`lua5.1`\
+`make`\
+`tree-sitter-cli`
 
-**optional:**
-* [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) file explorer as alternative to netrw, see [config](/lua/daykoo/lazy/nvimtree.lua) notes to activate
+## Keymaps
+![keyma sheet](docs/assets/keymaps.svg)
 
-### remaps
-vim remaps can be found [here](/lua/daykoo/remap.lua)  
-plugin remaps can be found in the corresponding plugin.lua file
+## Misc
+If the syntax highlighting is missing try to run `:TSInstall <lang>`.\
 
-![cheatsheet](resources/cheatsheet.png)
+Big thanks to `@tjdevries` for his great tutorials and its work on `telescope` and the best neovim starting point in the world [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim) as well as `@ThePrimeagen` for providing nice keymaps and showing Neovim to the world.\
 
-### TODO:
-- [ ] code refactoring stuff 
-- [ ] debugger
-- [ ] cmp description buffer theme
-- [ ] lsp error messages
-- [ ] toggle cmp
+[^disclaimer]: The best thing is that I didn't even use AI to write those dotfiles!

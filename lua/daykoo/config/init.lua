@@ -1,0 +1,5 @@
+require("daykoo.config.core")
+require("daykoo.config.options")
+require("daykoo.config.keymaps")
+require("daykoo.config.autocmds")
+require("daykoo.config.lazy")

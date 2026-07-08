@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1746" width="2000" height="1746" font-family="'JetBrains Mono','Fira Code','Cascadia Mono',ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="17">
+<rect width="2000" height="1746" rx="44" fill="#10151c"/>
+<g>
+<rect x="72" y="72" width="900" height="560" rx="18" fill="#1b222c"/>
+<rect x="457.6" y="49" width="128.9" height="46" rx="8" fill="#8fd0dd"/>
+<text x="522.0" y="72" fill="#10151c" font-weight="700" text-anchor="middle" dominant-baseline="central">nvim</text>
+<text x="116" y="155" fill="#657081" dominant-baseline="central">leader</text>
+<text x="928" y="155" fill="#657081" text-anchor="end" dominant-baseline="central">&quot; &quot;</text>
+<text x="116" y="193" fill="#dfe4ea" dominant-baseline="central">source current file</text>
+<text x="928" y="193" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + &lt;leader&gt;</text>
+<text x="116" y="231" fill="#dfe4ea" dominant-baseline="central">clear search highlight</text>
+<text x="928" y="231" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">Esc</text>
+<text x="116" y="269" fill="#dfe4ea" dominant-baseline="central">diagnostics to loclist</text>
+<text x="928" y="269" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + q</text>
+<text x="116" y="307" fill="#dfe4ea" dominant-baseline="central">exit terminal mode</text>
+<text x="928" y="307" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">Esc Esc</text>
+<text x="116" y="345" fill="#dfe4ea" dominant-baseline="central">move focus between windows</text>
+<text x="928" y="345" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-h/j/k/l</text>
+<text x="116" y="383" fill="#dfe4ea" dominant-baseline="central">move selection down / up</text>
+<text x="928" y="383" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">J / K</text>
+<text x="116" y="421" fill="#dfe4ea" dominant-baseline="central">join line, keep cursor</text>
+<text x="928" y="421" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">J</text>
+<text x="116" y="459" fill="#dfe4ea" dominant-baseline="central">half page jump, centered</text>
+<text x="928" y="459" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-d / C-u</text>
+<text x="116" y="497" fill="#dfe4ea" dominant-baseline="central">paste over, keep yank</text>
+<text x="928" y="497" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + p</text>
+<text x="116" y="535" fill="#dfe4ea" dominant-baseline="central">delete into void register</text>
+<text x="928" y="535" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + d</text>
+<text x="116" y="573" fill="#dfe4ea" dominant-baseline="central">replace word under cursor</text>
+<text x="928" y="573" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + s</text>
+</g>
+<g>
+<rect x="1028" y="72" width="900" height="674" rx="18" fill="#1b222c"/>
+<rect x="1388.0" y="49" width="180.0" height="46" rx="8" fill="#d4de8e"/>
+<text x="1478.0" y="72" fill="#10151c" font-weight="700" text-anchor="middle" dominant-baseline="central">telescope</text>
+<text x="1072" y="155" fill="#dfe4ea" dominant-baseline="central">find files</text>
+<text x="1884" y="155" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sf / pf</text>
+<text x="1072" y="193" fill="#dfe4ea" dominant-baseline="central">git files</text>
+<text x="1884" y="193" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-p</text>
+<text x="1072" y="231" fill="#dfe4ea" dominant-baseline="central">live grep</text>
+<text x="1884" y="231" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sg</text>
+<text x="1072" y="269" fill="#dfe4ea" dominant-baseline="central">grep word under cursor</text>
+<text x="1884" y="269" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sw</text>
+<text x="1072" y="307" fill="#dfe4ea" dominant-baseline="central">grep open files</text>
+<text x="1884" y="307" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + s/</text>
+<text x="1072" y="345" fill="#dfe4ea" dominant-baseline="central">fuzzy find in buffer</text>
+<text x="1884" y="345" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + /</text>
+<text x="1072" y="383" fill="#dfe4ea" dominant-baseline="central">buffers</text>
+<text x="1884" y="383" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + fb</text>
+<text x="1072" y="421" fill="#dfe4ea" dominant-baseline="central">diagnostics</text>
+<text x="1884" y="421" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sd</text>
+<text x="1072" y="459" fill="#dfe4ea" dominant-baseline="central">resume last search</text>
+<text x="1884" y="459" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sr</text>
+<text x="1072" y="497" fill="#dfe4ea" dominant-baseline="central">recent files</text>
+<text x="1884" y="497" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + s.</text>
+<text x="1072" y="535" fill="#dfe4ea" dominant-baseline="central">help tags</text>
+<text x="1884" y="535" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sh</text>
+<text x="1072" y="573" fill="#dfe4ea" dominant-baseline="central">keymaps</text>
+<text x="1884" y="573" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sk</text>
+<text x="1072" y="611" fill="#dfe4ea" dominant-baseline="central">commands</text>
+<text x="1884" y="611" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sc</text>
+<text x="1072" y="649" fill="#dfe4ea" dominant-baseline="central">builtin pickers</text>
+<text x="1884" y="649" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + ss</text>
+<text x="1072" y="687" fill="#dfe4ea" dominant-baseline="central">neovim config files</text>
+<text x="1884" y="687" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + sn</text>
+</g>
+<g>
+<rect x="72" y="688" width="900" height="636" rx="18" fill="#1b222c"/>
+<rect x="462.7" y="665" width="118.7" height="46" rx="8" fill="#d7a2ea"/>
+<text x="522.0" y="688" fill="#10151c" font-weight="700" text-anchor="middle" dominant-baseline="central">lsp</text>
+<text x="116" y="771" fill="#657081" dominant-baseline="central">completion menu (blink)</text>
+<text x="928" y="771" fill="#657081" text-anchor="end" dominant-baseline="central">default preset</text>
+<text x="116" y="809" fill="#dfe4ea" dominant-baseline="central">show documentation</text>
+<text x="928" y="809" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-Space</text>
+<text x="116" y="847" fill="#dfe4ea" dominant-baseline="central">select next / previous</text>
+<text x="928" y="847" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-n / C-p</text>
+<text x="116" y="885" fill="#dfe4ea" dominant-baseline="central">accept completion</text>
+<text x="928" y="885" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-y</text>
+<text x="116" y="923" fill="#dfe4ea" dominant-baseline="central">hide menu</text>
+<text x="928" y="923" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-e</text>
+<text x="116" y="961" fill="#dfe4ea" dominant-baseline="central">rename symbol</text>
+<text x="928" y="961" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">grn</text>
+<text x="116" y="999" fill="#dfe4ea" dominant-baseline="central">code action</text>
+<text x="928" y="999" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">gra</text>
+<text x="116" y="1037" fill="#dfe4ea" dominant-baseline="central">goto definition</text>
+<text x="928" y="1037" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">grd</text>
+<text x="116" y="1075" fill="#dfe4ea" dominant-baseline="central">goto declaration</text>
+<text x="928" y="1075" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">grD</text>
+<text x="116" y="1113" fill="#dfe4ea" dominant-baseline="central">goto references</text>
+<text x="928" y="1113" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">grr</text>
+<text x="116" y="1151" fill="#dfe4ea" dominant-baseline="central">goto implementation</text>
+<text x="928" y="1151" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">gri</text>
+<text x="116" y="1189" fill="#dfe4ea" dominant-baseline="central">document symbols</text>
+<text x="928" y="1189" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">g0</text>
+<text x="116" y="1227" fill="#dfe4ea" dominant-baseline="central">toggle inlay hints</text>
+<text x="928" y="1227" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + th</text>
+<text x="116" y="1265" fill="#dfe4ea" dominant-baseline="central">format buffer (conform)</text>
+<text x="928" y="1265" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + f</text>
+</g>
+<g>
+<rect x="1028" y="802" width="900" height="332" rx="18" fill="#1b222c"/>
+<rect x="1398.2" y="779" width="159.5" height="46" rx="8" fill="#dd8fb4"/>
+<text x="1478.0" y="802" fill="#10151c" font-weight="700" text-anchor="middle" dominant-baseline="central">harpoon</text>
+<text x="1072" y="885" fill="#dfe4ea" dominant-baseline="central">add file to menu</text>
+<text x="1884" y="885" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + a</text>
+<text x="1072" y="923" fill="#dfe4ea" dominant-baseline="central">toggle quick menu</text>
+<text x="1884" y="923" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-e</text>
+<text x="1072" y="961" fill="#dfe4ea" dominant-baseline="central">menu as telescope list</text>
+<text x="1884" y="961" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + C-e</text>
+<text x="1072" y="999" fill="#dfe4ea" dominant-baseline="central">nav file 1-4</text>
+<text x="1884" y="999" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-h/j/k/l</text>
+<text x="1072" y="1037" fill="#dfe4ea" dominant-baseline="central">previous / next buffer</text>
+<text x="1884" y="1037" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">C-S-K / C-S-J</text>
+<text x="1072" y="1075" fill="#dfe4ea" dominant-baseline="central">quick replace file 1-4</text>
+<text x="1884" y="1075" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + C-h/j/k/l</text>
+</g>
+<g>
+<rect x="1028" y="1190" width="900" height="218" rx="18" fill="#1b222c"/>
+<rect x="1408.5" y="1167" width="139.1" height="46" rx="8" fill="#8fdd94"/>
+<text x="1478.0" y="1190" fill="#10151c" font-weight="700" text-anchor="middle" dominant-baseline="central">files</text>
+<text x="1072" y="1273" fill="#dfe4ea" dominant-baseline="central">open oil</text>
+<text x="1884" y="1273" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + pv</text>
+<text x="1072" y="1311" fill="#dfe4ea" dominant-baseline="central">toggle nvim-tree</text>
+<text x="1884" y="1311" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + e</text>
+<text x="1072" y="1349" fill="#dfe4ea" dominant-baseline="central">refresh nvim-tree</text>
+<text x="1884" y="1349" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + r</text>
+</g>
+<g>
+<rect x="72" y="1380" width="900" height="294" rx="18" fill="#1b222c"/>
+<rect x="457.6" y="1357" width="128.9" height="46" rx="8" fill="#9086dd"/>
+<text x="522.0" y="1380" fill="#10151c" font-weight="700" text-anchor="middle" dominant-baseline="central">mini</text>
+<text x="116" y="1463" fill="#dfe4ea" dominant-baseline="central">surround add</text>
+<text x="928" y="1463" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">saiw)</text>
+<text x="116" y="1501" fill="#dfe4ea" dominant-baseline="central">surround delete</text>
+<text x="928" y="1501" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">sd'</text>
+<text x="116" y="1539" fill="#dfe4ea" dominant-baseline="central">surround replace</text>
+<text x="928" y="1539" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">sr)'</text>
+<text x="116" y="1577" fill="#dfe4ea" dominant-baseline="central">around / inside textobjects</text>
+<text x="928" y="1577" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">va) / ci'</text>
+<text x="116" y="1615" fill="#dfe4ea" dominant-baseline="central">next variants</text>
+<text x="928" y="1615" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">aa / ii</text>
+</g>
+<g>
+<rect x="1028" y="1464" width="900" height="180" rx="18" fill="#1b222c"/>
+<rect x="1413.6" y="1441" width="128.9" height="46" rx="8" fill="#5f976c"/>
+<text x="1478.0" y="1464" fill="#10151c" font-weight="700" text-anchor="middle" dominant-baseline="central">misc</text>
+<text x="1072" y="1547" fill="#dfe4ea" dominant-baseline="central">toggle undotree</text>
+<text x="1884" y="1547" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + C-u</text>
+<text x="1072" y="1585" fill="#dfe4ea" dominant-baseline="central">buffer local keymaps</text>
+<text x="1884" y="1585" fill="#f4f6f8" text-anchor="end" dominant-baseline="central">&lt;leader&gt; + ?</text>
+</g>
+</svg>
