@@ -66,6 +66,15 @@ return {
 			"saghen/blink.cmp", -- ensures blink loads first (full spec lives above)
 		},
 		config = function()
+			-- Make sure default lsps are installed AND enabled
+			require("mason-lspconfig").setup({
+				ensure_installed = {
+					"lua_ls",
+					"rust_analyzer",
+					"gopls",
+				},
+				automatic_enable = true,
+			})
 			-- =========================================================================
 			-- Gets run when an LSP attaches to a particular buffer.
 			-- Every time a new file is opened that is associated with an LSP
@@ -149,6 +158,13 @@ return {
 			-- See `:help lsp-config`.
 			---@type table<string, vim.lsp.Config>
 			local servers = {
+				gopls = {
+					analyses = {
+						unusedparams = true,
+					},
+					staticcheck = true,
+					gofumpt = true,
+				},
 				rust_analyzer = {},
 				-- Special config as recommended by the neovim help docs.
 				lua_ls = {
